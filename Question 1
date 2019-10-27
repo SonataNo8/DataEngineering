@@ -1,4 +1,4 @@
-SELECT table1.StudentID, table1.Name, table2.Total_marks 
+SELECT table1.StudentID, table1.Name
 FROM table1 
 LEFT JOIN table2 ON (table1.StudentID = table2.StudentID) 
 WHERE table2.Total_marks > (SELECT Total_Marks FROM table2 WHERE StudentID = 'V002');
