@@ -1,9 +1,9 @@
 Q4: If you were asked to impute null values in a column of a file that was 365 Gigabytes, what
 would you do?  What tools would you use?  What tools would you NOT use?
  
-A: fillna() in the pandas library would get the job done. I'm morbidly curious how sed would 
-perform in comparison. I wouldn't use anything else, more specifically no kind of editor or 
-anything that would attempt to load the file into memory.
+A: fillna() in the pandas library would get the job done, though I'm morbidly curious how sed 
+would perform in comparison. I wouldn't use anything else, more specifically no kind of editor 
+or anything that would attempt to load the file into memory.
 
 
 Q5: What would you do if you were asked to do the above task every Thursday morning at 2:00am?
