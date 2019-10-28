@@ -13,4 +13,5 @@ A: I'd write a python script to handle the task and use cron to schedule it. e.g
 
 
 Q: Who is your favorite mathematician, statistician or computer scientist and why? 
- 
+A: I credit Leonhard Euler for making mathematics interesting enough to pursue
+on my own time, though the vast majority of his work is still over my head.
